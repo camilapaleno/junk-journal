@@ -165,7 +165,7 @@ const DraggablePhotos = () => {
         >
           <img
             src={photo.url}
-            alt={`Photo ${photo.id + 1}`}
+            alt={`Scrap ${photo.id + 1}`}
             className="pointer-events-none select-none"
             style={{ maxWidth: '300px' }}
             draggable="false"
